@@ -1,0 +1,8 @@
+C:\MinGW\bin\mingw32-make.exe -f "C:\vscode\HW4\Makefile" --dry-run --always-make --keep-going --print-directory
+mingw32-make: Entering directory 'c:/vscode/HW4'
+gcc -c -o dataStructure.o src/cfile/dataStructure.c
+gcc -c -o memory.o src/cfile/memory.c
+gcc -c -o VirtualMemorySystem.o VirtualMemorySystem.c
+gcc -o VMS VirtualMemorySystem.o dataStructure.o memory.o
+mingw32-make: Leaving directory 'c:/vscode/HW4'
+ 

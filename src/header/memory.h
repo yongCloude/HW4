@@ -39,5 +39,6 @@ struct invertedPageTableEntry {
 };
 
 
-FRAME_PAGE* initPhyMem(FRAME_PAGE *phyMem, int nFrame);
-void init_oneLevel_page_table(PAGE_TABLE *pageTable, int pid, char *traceName);
+
+void init_oneLevel_page_table(PAGE_TABLE *pageTable, int pid, const char *traceName);
+int initPhyMem(FRAME_PAGE *phyMem, int nFrame);

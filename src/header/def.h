@@ -3,6 +3,8 @@
 #define VIRTUALADDRBITS 32		// virtual address space size = 4Gbytes
 #define TRUE 1
 #define FALSE 0
+#define GETVPN 0x10 * 0x10 * 0x10
+
 
 typedef int ADDRESS;
 
